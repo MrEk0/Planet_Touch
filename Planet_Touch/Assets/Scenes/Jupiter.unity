@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d0b2fce5cc2d8499879252a968b5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetEarth: {fileID: 11400000, guid: dcc9d4dcc408d144fbaf9cb440873bd5, type: 2}
+  planetEarth: {fileID: 11400000, guid: bf98f11f9651b794285911949a43f900, type: 2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

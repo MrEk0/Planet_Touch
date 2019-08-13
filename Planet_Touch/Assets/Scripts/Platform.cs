@@ -36,4 +36,9 @@ public class Platform : MonoBehaviour, IClickable
     {
         spriteRenderer.color = RandomColor();
     }
+
+    private void OnMouseDown()
+    {
+        Click();
+    }
 }

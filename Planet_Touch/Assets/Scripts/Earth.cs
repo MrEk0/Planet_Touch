@@ -9,5 +9,6 @@ public class Earth : MonoBehaviour
     private void Awake()
     {
         GetComponent<Camera>().backgroundColor = planetEarth.GetSkyColor;
+        Physics2D.gravity = new Vector2(0, -planetEarth.GetGravity);
     }
 }

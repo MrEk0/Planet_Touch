@@ -8,4 +8,13 @@ public class Planet : ScriptableObject
     [SerializeField] float gravitySpeed;
     [SerializeField] Color skyColor;
 
+    public Color GetSkyColor
+    {
+        get { return skyColor; }
+    }
+
+    public float GetGravity
+    {
+        get { return gravitySpeed; }
+    }
 }

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Platform : MonoBehaviour
+public class Platform : MonoBehaviour, IClickable
 {
     SpriteRenderer spriteRenderer;
 
@@ -30,5 +30,10 @@ public class Platform : MonoBehaviour
         Color color = new Color(red / 255, green / 255, blue / 255);
 
         return color;
+    }
+
+    public void Click()
+    {
+        spriteRenderer.color = RandomColor();
     }
 }

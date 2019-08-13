@@ -311,7 +311,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4039426329109068671, guid: c1a6ddf32a53c48489e2e512f7ca69dc,
+          type: 3}
         m_MethodName: LoadStartScene
         m_Mode: 1
         m_Arguments:

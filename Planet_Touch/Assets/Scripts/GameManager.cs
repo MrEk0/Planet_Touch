@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour, IClickable
+public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null; 
 
@@ -19,13 +20,22 @@ public class GameManager : MonoBehaviour, IClickable
         DontDestroyOnLoad(gameObject);
     }
 
-    public void Click()
+    public void LoadEarthLevel()
     {
-        
+        SceneManager.LoadScene(1);
     }
 
-    private void OnMouseDown()
+    public void LoadMoonLevel()
     {
-        
+        SceneManager.LoadScene(2);
+    }
+    public void LoadJupiterLevel()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void LoadStartScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }

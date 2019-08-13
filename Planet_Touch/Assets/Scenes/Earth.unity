@@ -272,6 +272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1416490981025351293, guid: 39741bdb7695f454dadb84d38a74d297,
+        type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     - target: {fileID: 1416490981025351289, guid: 39741bdb7695f454dadb84d38a74d297,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,6 +400,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1906224512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2402995672618892025, guid: 23bf5a05ae3f3224c9545919ccd53d60,
+    type: 3}
+  m_PrefabInstance: {fileID: 7260888316303111655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1906224516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906224512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fe648e0c88fc9448c0cec32b35476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2055522944
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +431,7 @@ GameObject:
   - component: {fileID: 2055522945}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,12 +539,12 @@ PrefabInstance:
     - target: {fileID: 455359688875334248, guid: 33c94a8e1e064574dbe0daf2566a781f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.21
+      value: 0.87
       objectReference: {fileID: 0}
     - target: {fileID: 455359688875334248, guid: 33c94a8e1e064574dbe0daf2566a781f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.1
+      value: 2.28
       objectReference: {fileID: 0}
     - target: {fileID: 455359688875334248, guid: 33c94a8e1e064574dbe0daf2566a781f,
         type: 3}
@@ -576,7 +599,7 @@ PrefabInstance:
     - target: {fileID: 455359688875334263, guid: 33c94a8e1e064574dbe0daf2566a781f,
         type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455359688875334263, guid: 33c94a8e1e064574dbe0daf2566a781f,
         type: 3}
@@ -595,6 +618,11 @@ PrefabInstance:
     - target: {fileID: 1416490981025351293, guid: 39741bdb7695f454dadb84d38a74d297,
         type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416490981025351293, guid: 39741bdb7695f454dadb84d38a74d297,
+        type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     - target: {fileID: 1416490981025351289, guid: 39741bdb7695f454dadb84d38a74d297,

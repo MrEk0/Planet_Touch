@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
-        else if(instance!=this)
+        else if(instance==this)
         {
             Destroy(gameObject);
         }
@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
     public void LoadJupiterLevel()
     {
         SceneManager.LoadScene(3);

@@ -17,5 +17,7 @@ public class TextUI : MonoBehaviour
     {
         touchScore += 1;
         score.text = touchScore.ToString();
+        if(touchScore>PlayerPrefs.GetInt("Score",0))
+        PlayerPrefs.SetInt("Score", touchScore);
     }
 }
